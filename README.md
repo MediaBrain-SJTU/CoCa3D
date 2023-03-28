@@ -1,4 +1,4 @@
-# Where2comm
+# CoCa3D
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 This repository contains the official PyTorch implementation of
@@ -47,18 +47,6 @@ in some practical scenarios.
   - [x] BEV visualization
   - [x] 3D visualization
 
-## Citation
-
-If you find this code useful in your research then please cite
-
-```
-@inproceedings{Where2comm:22,
-  author    = {Yue Hu, Yifan Lu, Runsheng Xu, Weidi Xie, Siheng Chen, Yanfeng Wang},
-  title     = {Collaboration Helps Camera Overtake LiDAR in 3D Detection},
-  booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year      = {2023}
-}
-```
 
 ## Quick Start
 ### Install
@@ -67,7 +55,7 @@ documentations.
 
 ### Download dataset DAIR-V2X
 1. Download raw data of [DAIR-V2X.](https://thudair.baai.ac.cn/cooptest)
-2. Download complemented annotation from [Yifan Lu](https://github.com/yifanlu0227/CoAlign).
+2. Download complemented annotation from [dair-v2x-c-complemented](https://siheng-chen.github.io/dataset/dair-v2x-c-complemented/).
 
 
 ### Train your model
@@ -108,3 +96,16 @@ Thanks for the insightful previous works in cooperative perception field. [Where
 ## Contact
 
 If you have any problem with this code, please feel free to contact **18671129361@sjtu.edu.cn**.
+
+## Citation
+
+If you find this code useful in your research then please cite
+
+```
+@inproceedings{CoCa3D:23,
+  author    = {Yue Hu, Yifan Lu, Runsheng Xu, Weidi Xie, Siheng Chen, Yanfeng Wang},
+  title     = {Collaboration Helps Camera Overtake LiDAR in 3D Detection},
+  booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2023}
+}
+```
